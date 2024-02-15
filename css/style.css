@@ -1,14 +1,21 @@
 body {
+  margin: 0;
   font-family: "Outfit", sans-serif;
   background-color: hsl(212, 45%, 89%);
   font-size: 15px;
 }
 
 .card {
+  width: 30%;
   display: flex;
   flex-direction: column;
   align-items: center;
   background: hsl(0, 0%, 100%);
+}
+
+.card,
+.card img {
+  border-radius: 10px;
 }
 
 .card-title {
@@ -19,4 +26,8 @@ body {
 .card-body {
   font-weight: 400;
   color: hsl(220, 15%, 55%);
+}
+
+.card img {
+  width: 80%;
 }
