@@ -24,7 +24,7 @@ body {
 
 .card,
 .card img {
-  border-radius: 10px;
+  border-radius: 5px;
 }
 
 .card-title {
@@ -38,5 +38,5 @@ body {
 }
 
 .card img {
-  width: 80%;
+  width: 75%;
 }
