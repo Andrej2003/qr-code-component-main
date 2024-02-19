@@ -2,7 +2,7 @@ body {
   margin: 0;
   font-family: "Outfit", sans-serif;
   background-color: hsl(212, 45%, 89%);
-  font-size: 15px;
+  font-size: 0.9375em;
 }
 
 .container {
