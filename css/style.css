@@ -32,30 +32,28 @@ body {
   align-items: center;
   background: var(--white);
   border-radius: 17px;
-  box-shadow: 10px 20px 15px rgba(0, 0, 0, 0.04);
+  box-shadow: 0px 20px 20px rgba(0, 0, 0, 0.055);
 }
 
 .card img {
-  border-radius: 7px;
+  width: 100%;
+  border-radius: 8px;
+  margin-bottom: 1.19rem;
 }
 
 .card-title {
   font-weight: 700;
-  font-size: 1.1rem;
+  font-size: 1.11rem;
   color: var(--dark-blue);
   text-align: center;
+  margin-bottom: .15rem;
 }
 
 .card-body {
   font-weight: 400;
   color: var(--grayish-blue);
-  font-size: 0.78rem;
+  font-size: 0.773rem;
   padding: 0.65rem;
-  margin-bottom: 0.589rem;
+  margin-bottom: 0.50rem;
   text-align: center;
-}
-
-.card img {
-  width: 100%;
-  margin-bottom: 1.25rem;
 }
